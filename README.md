@@ -51,7 +51,7 @@ The model will first load the entire database, then pre-process the data (especi
 
 The SVM parameters are automatically optimized using the Bayesian Optimization approach, where we define manually the research space.   
 
-Importantly, the model is trained in order to provide uncertainty in each predictions. We also plot the confusion matrix to have an idea about the reliability of the training (see [Confusion_matrix.png](Confusion_matrix.png)). 
+Importantly, the model is trained in order to provide uncertainty in each predictions. We also plot the confusion matrix to have an idea about the reliability of the training (see [Confusion_Matrix.png](Confusion_Matrix.png)). 
 
 More details about the setup and how the model is built are available within the script itself.   
 
