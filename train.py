@@ -12,7 +12,6 @@ data = pd.read_csv(data_path)
 print(data.head())
 print(data.info())
 print(data.describe())
-print(data.isnull().sum())
 
 # Separate features and the target
 X = data.iloc[:, :-1]
