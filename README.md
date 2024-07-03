@@ -33,11 +33,10 @@ Once you have downloaded the database, ensure that you have a directory that con
 
 ## Project architecture
 
-This example consists of three main parts:
+This example consists of two main parts:
 
 ***1. Building a SVM model from sratch***   
-***2. Optimizing its efficiency***   
-***3. Deploying the model***
+***3. Deploying the model for applications***
 
 Let us see in more details these two aspects
 
@@ -55,7 +54,7 @@ Importantly, the model is trained in order to provide uncertainty in each predic
 
 More details about the setup and how the model is built are available within the script itself.   
 
-### 2. Deploying the model
+### 2. Deploying the model for applications
 
 At the end of the script, the model is saved in a file named [svm_model.joblib](svm_model.joblib). This model can be then used by launching the script:
 ```
