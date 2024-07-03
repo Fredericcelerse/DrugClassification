@@ -45,7 +45,7 @@ Let us see in more details these two aspects
 
 There is a script named [train.py](train.py). After verifying the path to the database, you can launch the script by typing:
 ```
-python CNN.py
+python train.py
 ```
 The model will first load the entire database, then pre-process the data (especially the strings), and then set up and train the SVM model.    
 
