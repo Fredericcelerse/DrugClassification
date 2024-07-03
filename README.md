@@ -29,7 +29,7 @@ pip install scikit-learn matplotlib pandas seaborn joblib
 ### Database
 
 The database used in this project, named "Kaggle: Drugs A, B, C, X, Y for Decision Trees", is coming from the following website: https://www.kaggle.com/datasets/pablomgomez21/drugs-a-b-c-x-y-for-decision-trees/data 
-Once you have downloaded the database, ensure that you have a directory that contains the file drug200.csv.
+Once you have downloaded the database, ensure that you have a directory that contains the file [drug200.csv](drug200.csv).
 
 ## Project architecture
 
@@ -56,7 +56,7 @@ More details about the setup and how the model is built are available within the
 
 ### 2. Deploying the model for applications
 
-At the end of the script, the model is saved in a file named [svm_model.joblib](svm_model.joblib). This model can be then used by launching the script:
+At the end of the script, the model is saved in a file named [svm_model.joblib](svm_model.joblib). This model can be then used by launching the script [predict_drug.py](predict_drug.py):
 ```
 python predict_drug.py
 ```
