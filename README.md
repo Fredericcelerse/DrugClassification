@@ -1,7 +1,7 @@
 # DrugClassification
 This introductory project demonstrates how to build and use ML approaches for drug classification.
 
-In this example, we show how to construct an AI model based on the Suport Vector Machine (SVM) architecture and enhance its accuracy and efficiency using Bayesian Optimization and probability approaches.
+In this example, we show how to construct an AI model based on the Support Vector Machine (SVM) architecture and enhance its accuracy and efficiency using Bayesian Optimization and probability approaches.
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ The model will first load the entire database, then pre-process the data (especi
 
 The SVM parameters are automatically optimized using the Bayesian Optimization approach, where we define manually the research space.   
 
-Importantly, the model is trained in order to provide uncertainty in each predictions. We also plot the confusion matrix to have an idea about the reliability of the training (see [Confusion_Matrix.png](Confusion_Matrix.png)). 
+Importantly, the model is trained in order to provide uncertainty in each prediction. We also plot the confusion matrix to have an idea about the reliability of the training (see [Confusion_Matrix.png](Confusion_Matrix.png)) and performed 5 cross-validations. 
 
 More details about the setup and how the model is built are available within the script itself.   
 
