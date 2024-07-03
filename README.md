@@ -23,7 +23,7 @@ conda activate DrugClassification
 
 Once the environment is properly created, install the necessary Python libraries to execute the code:
 ```
-pip install scikit-learn matplotlib pandas seaborn joblib
+pip install scikit-learn scikit-optimize matplotlib pandas seaborn joblib
 ```
 
 ### Database
