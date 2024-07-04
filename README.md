@@ -36,7 +36,7 @@ Once you have downloaded the database, ensure that you have a directory that con
 This example consists of two main parts:
 
 ***1. Building a SVM model from sratch***   
-***3. Deploying the model for applications***
+***2. Deploying the model for applications***
 
 Let us see in more details these two aspects
 
